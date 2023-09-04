@@ -38,6 +38,6 @@ int SumOfOddElementsInArray(int[] arr)
 }
 
 int[] myArray = CreateArray(InputNumber("Введите размер массива: "));
-FillArrayByRandom(myArray, -100, 101);
+FillArrayByRandom(myArray, -100, 100);
 PrintArray(myArray);
 Console.WriteLine($"Сумма нечетных элементов: {SumOfOddElementsInArray(myArray)}");
